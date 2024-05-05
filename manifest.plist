@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+<key>items</key>
+<array>
+	<dict>
+		<key>assets</key>
+		<array>
+			<dict>
+				<key>kind</key>
+				<string>software-package</string>
+				<key>url</key>
+				<string>http://10.200.130.170:7002/it_wangyunfeng/ipa4install/-/blob/master/version/V1.0/chagee.ipa</string>//上传上去ipa的外链
+			</dict>
+			<dict>
+				<key>kind</key>
+				<string>display-image</string>
+				<key>url</key>
+				<string>https://classic-assets.eascdn.net/~assets/a56d2600e3e649b0df1053dc28231095</string>//上传上去的`57*57`icon的外链
+			</dict>
+			<dict>
+				<key>kind</key>
+				<string>full-size-image</string>
+				<key>url</key>
+				<string>https://classic-assets.eascdn.net/~assets/a56d2600e3e649b0df1053dc28231095</string>//上传上去的`512*512`icon的外链
+			</dict>
+		</array>
+		<key>metadata</key>
+		<dict>
+			<key>bundle-identifier</key>
+			<string>com.anonymous.bawangchagee</string>//
+			<key>bundle-version</key>
+			<string>1.0</string>//版本号
+			<key>kind</key>
+			<string>software</string>
+			<key>title</key>
+			<string>bawang-chagee</string>//app名字
+			<key>subtitle</key>
+			<string>以茶会友</string>//随便
+		</dict>
+	</dict>
+</array>
+</dict>
+</plist>
+
