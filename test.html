@@ -1,0 +1,24 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chagee-MidPlatform</title>
+  </head>
+  <body>
+    <div id="app">
+      <button id="myBtn" onclick="openApp()">点击打开茶姬app</button>
+    </div>
+    <script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js"></script>
+    <script>
+      // VConsole 默认会挂载到 `window.VConsole` 上
+      var vConsole = new window.VConsole();
+    </script>
+    <script>
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      function openApp() {
+        window.location.href = 'CHAGEE://';
+      }
+    </script>
+  </body>
+</html>
